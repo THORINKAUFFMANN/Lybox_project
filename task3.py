@@ -1,6 +1,8 @@
+#Exemple
 number1 = 471
 number2 = 480
 
+#fonction
 def calculate(nb):
     res = nb
     i = 10
@@ -20,6 +22,8 @@ def manage(nb1, nb2):
         nb2 = calculate(nb2)
     joinpt = calculate(nb1)
     return joinpt
+
+#main
 
 if(0 < number1 & number1< 20000000 & 0 < number2 & number2 < 20000000) :
     if(manage(number2, number1) > 0 & manage(number1, number2) < 20000000):
